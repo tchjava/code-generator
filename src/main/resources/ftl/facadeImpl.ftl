@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class ${facadePrefix}FacadeImpl implements ${facadePrefix}Facade {
 
     @Override
-    public Response query(Request request) {
+    public Response ${actionName}(Request request) {
         Response response = new Response();
         return response;
     }

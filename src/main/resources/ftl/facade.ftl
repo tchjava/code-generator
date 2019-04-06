@@ -4,5 +4,5 @@ import ${packagePrefix}.${moduleParent}.model.${moduleName}.${actionName}.Reques
 import ${packagePrefix}.${moduleParent}.model.${moduleName}.${actionName}.Response;
 
 public interface ${facadePrefix}Facade {
-    Response query(Request request);
+    Response ${actionName}(Request request);
 }

@@ -17,8 +17,8 @@ public class ${ctrPrefix}Controller extends BaseController {
     private ${facadePrefix}Facade ${facadePrefix_firstLower}Facade;
 
     @RequestMapping("${actionName}")
-    public Response query(@RequestBody Request request){
-        return ${ctrPrefix_firstLower}Facade.query(request);
+    public Response ${actionName}(@RequestBody Request request){
+        return ${ctrPrefix_firstLower}Facade.${actionName}(request);
     }
 
 
