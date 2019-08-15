@@ -1,8 +1,8 @@
 package ${packagePrefix}.${moduleParent}.facade.impl;
 
 import ${packagePrefix}.${moduleParent}.facade.${facadePrefix}Facade;
-import ${packagePrefix}.${moduleParent}.model.${moduleName}.${actionName}.Request;
-import ${packagePrefix}.${moduleParent}.model.${moduleName}.${actionName}.Response;
+import ${packagePrefix}.${moduleParent}.vo.${moduleName}.${actionName}.Request;
+import ${packagePrefix}.${moduleParent}.vo.${moduleName}.${actionName}.Response;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,7 +1,7 @@
 package ${packagePrefix}.${moduleParent}.facade;
 
-import ${packagePrefix}.${moduleParent}.model.${moduleName}.${actionName}.Request;
-import ${packagePrefix}.${moduleParent}.model.${moduleName}.${actionName}.Response;
+import ${packagePrefix}.${moduleParent}.vo.${moduleName}.${actionName}.Request;
+import ${packagePrefix}.${moduleParent}.vo.${moduleName}.${actionName}.Response;
 
 public interface ${facadePrefix}Facade {
     Response ${actionName}(Request request);

@@ -105,7 +105,7 @@ public class Config {
                 .append(".")
                 .append(moduleParent)
                 .append(".")
-                .append("model")
+                .append("vo")
                 .append(".")
                 .append(moduleName)
                 .append(".")
