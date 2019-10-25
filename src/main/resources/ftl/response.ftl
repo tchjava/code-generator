@@ -1,4 +1,4 @@
-package ${packagePrefix}.${moduleParent}.model.${moduleName}.${actionName};
+package ${packagePrefix}.${moduleParent}.vo.${moduleName}.${actionName};
 
 import com.gaby.model.BaseResponse;
 import lombok.Data;
